@@ -1,0 +1,113 @@
+:root {
+    --dark-blue: #0F172A;
+    --light-blue: #5EEAD4;
+    --dark-grey: #B5BEBE;
+    --light-grey: #EAF3F3;
+    --small-font-size: 20px;
+    --medium-font-size: 24px;
+    --big-font-size: 48px;
+}
+
+body {
+    margin: 0;
+    background-color: var(--dark-blue);
+}
+
+main {
+    position: relative;
+}
+
+/* Header */
+
+header {
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #0A101F;
+    position: fixed;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-list li {
+    margin: 0px 40px 0px 40px;
+    font-size: var(--small-font-size);
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+
+.menu-list span {
+    color: var(--light-blue);
+}
+
+.menu-list button {
+    color: var(--light-blue);
+    background-color: #0A101F;
+    border: solid 1px;
+    font-size: var(--small-font-size);
+}
+
+/* Main */
+
+/* Introduction */
+
+#introduction {
+    margin-left: 20%;
+    height: 100vh;
+    align-content: center;
+}
+
+#introduction .welcome {
+    color: var(--light-blue);
+    font-size: var(--small-font-size);
+    margin: 0px 0px 10px 0px;
+}
+
+#introduction .description span {
+    color: var(--light-blue);
+    font-size: var(--small-font-size);
+}
+
+#introduction h1 {
+    color: var(--light-grey);
+    font-size: var(--big-font-size);
+    margin: 0;
+}
+
+#introduction h2 {
+    color: var(--dark-grey);
+    font-size: var(--big-font-size);
+    margin: 0;
+}
+
+#introduction .description {
+    color: var(--dark-grey);
+    font-size: var(--small-font-size);
+    margin: 10px 0px 0px 0px;
+}
+
+#introduction button {
+    color: var(--light-blue);
+    background-color: #0A101F;
+    border: solid 1px black;
+    font-size: var(--medium-font-size);
+    margin-top: 25px;
+}
+
+/* Projects */
+
+/* Skills */
+
+/* Contact */
+
+/* Footer */
