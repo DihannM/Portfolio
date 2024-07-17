@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./resources/css/portfolio.css">
         <script src="https://kit.fontawesome.com/550fd06909.js" crossorigin="anonymous"></script>
+        <script src="portfolio-script.js" defer></script>
         <title>Dihann's Portfolio</title>
     </head>
     <body>
@@ -82,9 +83,27 @@
             <!-- Projects -->
             <section id="projects">
                 <h3>Projects</h3>
-                <!-- Carousel -->
-                <img/>
-                <p>project description</p>
+                <div class="projects-container">
+                    <div class="carousel" data-carousel>
+                        <ul class="slides" data-slides>
+                            <li class="slide" data-active>
+                                <img src="resources/images/reddit.png" alt="project-image 1">
+                            </li>
+                            <li class="slide">
+                                <img src="resources/images/jamming.png" alt="project-image 2">
+                            </li>
+                            <li class="slide">
+                                <img src="resources/images/dts.png" alt="project-image 3">
+                            </li>
+                            <li class="slide">
+                                <img src="resources/images/teaCozy.png" alt="project-image 4">
+                            </li>
+                        </ul>
+
+                        <button class="carousel-button prev" data-info-carousel-button="prev" data-carousel-button="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="carousel-button next" data-info-carousel-button="next" data-carousel-button="next"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
             </section>
 
             <!-- Contact -->
@@ -109,3 +128,26 @@
 
     </body>
 </html>
+
+                    <!-- <div class="slider">
+                        <div class="slides-wrapper">
+                          <div class="slide active" style="background: yellow;"></div>
+                          <div class="slide" style="background: brown;"></div>
+                          <div class="slide" style="background: purple;"></div>
+                          <div class="slide" style="background: orange;"></div>
+                          <div class="slide" style="background: red;"></div>
+                        </div>
+                        <div class="slide-indicators">
+                          <button type="button" class="active"></button>
+                          <button type="button"></button>
+                          <button type="button"></button>
+                          <button type="button"></button>
+                          <button type="button"></button>
+                        </div>
+                        <button type="button" class="prev-button"></button>
+                        <button type="button" class="next-button"></button>
+                    </div>                     -->
+                        <!-- <img src="resources/images/reddit.png" alt="project-image" class="image"> -->
+                    <!-- <p>project description</p> -->
+
+
